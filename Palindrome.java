@@ -34,7 +34,7 @@ public class Palindrome
       while (!stack.isEmpty()) {
             reverseString = reverseString+stack.pop();
         }
-       //print out result if palindrome or not while also calling isPalindrome method 
+       //print out result if palindrome or not
         if (isPalindrome(inputString, reverseString)){
             System.out.println(inputString+" is a palindrome");
         }
@@ -55,8 +55,9 @@ public class Palindrome
             else
             return false;
            
-            }//end
+            }
       
   }
      
+
 
