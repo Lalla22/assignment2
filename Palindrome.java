@@ -55,7 +55,7 @@ public class Palindrome
             else
             return false;
            
-            }
+            }//end
       
   }
      
